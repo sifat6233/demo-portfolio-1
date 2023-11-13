@@ -22,6 +22,9 @@
   background-repeat: no-repeat;
   background-position: bottom right, left;
 }
+section{
+  margin-top: 130px;
+}
 
   /*---------- Header and navigation bar style--------  */
 nav{
@@ -76,7 +79,6 @@ main{
   margin: 0 auto;
 }
 .about{
-  margin-top: 130px;
   background-color: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
@@ -85,6 +87,7 @@ main{
 .section-title{
   margin-bottom: 30px;
   font-size: 35px;
+  text-align: center;
 }
 .section-description{
   color: #757575;
@@ -108,3 +111,27 @@ main{
   font-weight: 700;
   line-height: 30px;
 }
+
+/* what i do styles */
+.skill{
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.skill-container{
+  display: flex;
+  gap: 25px;
+}
+.skill-title{
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.skill-description{
+  color: #757575;
+  line-height: 30px;
+}
+
+
+/* resume section */
